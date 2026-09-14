@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="פרק 03 — אוספים"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingBottom="14dp"
+            android:textSize="15sp"
+            android:text="מערך הוא בגודל קבוע. אוסף (Collection) גדל ומתכווץ לבד. כאן נכיר את ArrayList, HashMap ו-HashSet, את הגנריות שמגנה עלינו בזמן כתיבה, ואת המיון." />
+
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. ArrayList — הוספה, חיפוש, עדכון ומחיקה" />
+
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. HashMap — מפתח וערך, חיפוש ב-O(1)" />
+
+        <Button
+            android:id="@+id/btnSet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. HashSet — קבוצה בלי כפילויות" />
+
+        <Button
+            android:id="@+id/btnContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. המחלקה Contact — toString, equals, hashCode, compareTo" />
+
+        <Button
+            android:id="@+id/btnSort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. מיון — Collections.sort ו-Comparator" />
+
+        <Button
+            android:id="@+id/btnPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. ספר טלפונים — ArrayList + HashMap ביחד" />
+
+    </LinearLayout>
+</ScrollView>

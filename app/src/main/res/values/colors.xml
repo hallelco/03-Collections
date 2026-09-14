@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- לוח הצבעים האחיד של הקורס -->
+    <color name="brand">#3F51B5</color>          <!-- כחול-סגול ראשי -->
+    <color name="brand_dark">#303F9F</color>
+    <color name="accent">#00897B</color>          <!-- טורקיז להדגשות -->
+    <color name="bg">#F5F6FA</color>          <!-- רקע בהיר ונעים -->
+    <color name="surface">#FFFFFFFF</color>
+    <color name="text_main">#1A1C22</color>
+    <color name="text_soft">#5B6070</color>
+    <color name="divider">#E1E4EC</color>
+</resources>
